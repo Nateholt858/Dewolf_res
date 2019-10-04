@@ -1,0 +1,59 @@
+body{
+    font-family: 'Indie Flower', cursive;
+}
+
+.bg-dark{
+    background-color: rgba(78,78,78,0.68) !important;
+}
+.navbar-dark .navbar-brand{
+    color: yellow
+}
+
+.navbar-dark .navbar-nav .navr-link{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.08m;
+
+}
+
+.food{
+
+    background-image: url(../img/dewolf-warehouse-tom-prendergast.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.food h1{
+
+    background: rgba(78,78,78,0.68);
+    font-size: 6em;
+    text-align: center;
+    margin: 2em;
+    color: white;
+
+}
+
+.menu{
+    background-image: url(../img/photo-1476224203421-9ac39bcb3327.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    .menu h1{
+
+    background: rgba(78,78,78,0.68);
+    font-size: 6em;
+    text-align: center;
+    margin: 2em;
+    color: white;
+
+}
+
+.Appatizer_bold {
+    list-style: none;
+    font-weight: bold;
+}
