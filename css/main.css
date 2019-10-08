@@ -3,7 +3,7 @@ body{
 }
 
 .bg-dark{
-    background-color: rgba(78,78,78,0.68) !important;
+    background-color: rgba(78,78,78,0.80) !important;
 }
 .navbar-dark .navbar-brand{
     color: yellow
@@ -16,15 +16,19 @@ body{
 
 }
 
+.nav-item{
+    font-size: 24px;
+}
+
 .food{
 
-    background-image: url(../img/dewolf-warehouse-tom-prendergast.jpg);
+    background-image: url(../img/photo-1482275548304-a58859dc31b7.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+///*photo by Quentin Dr on Unsplah*///
 .food h1{
 
     background: rgba(78,78,78,0.68);
@@ -42,18 +46,99 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+///*photo by Davide Cantelli on Unsplah*///
     .menu h1{
 
     background: rgba(78,78,78,0.68);
     font-size: 6em;
     text-align: center;
-    margin: 2em;
+    margin: 3em;
     color: white;
 
 }
 
+.about{
+    background-image: url(../img/photo-1517248135467-4c7edcad34c4.jpg );
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+///*photo by Jason Leung on Unsplash *///
+    .about h1{
+
+    background: rgba(78,78,78,0.68);
+    font-size: 6em;
+    text-align: center;
+    margin: 3em;
+    color: white;
+
+}
+
+
+.contact{
+    background-image: url(../img/dewolf-warehouse-tom-prendergast.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+///*photo taken off of google images *///
+    .contact h1{
+
+    background: rgba(78,78,78,0.68);
+    font-size: 6em;
+    text-align: center;
+    margin: 3em;
+    color: white;
+
+}
+
+.radio {
+    color: white;
+}
+
+.form-group{
+    color: gray;
+}
+
+.checkbox{
+    color: ;
+}
+
+.btn{
+    color: ;
+    border-color: rgba(255, 204, 0);
+}
+
+
 .Appatizer_bold {
     list-style: none;
     font-weight: bold;
+}
+
+.container-fluid-about{
+    margin: 40px;
+}
+
+
+.card-link{
+    color: #e6b900;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+background: rgba(255, 204, 0);
+}
+
+
+form{
+    padding-left:10em ;
+  padding-right: 10em;
+}
+
+.form-group{
+   padding-left:10em ;
+  padding-right: 10em;
 }
